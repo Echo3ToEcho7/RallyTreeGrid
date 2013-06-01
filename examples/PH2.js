@@ -195,6 +195,7 @@
       //console.log("Loading data", newVal);
 
       me._treePanel = Ext.create('Rally.ui.tree.grid.Panel', {
+        id: "portfoliotree",
         store: me.store,
         models: [me.model],
         dockedItems: [{

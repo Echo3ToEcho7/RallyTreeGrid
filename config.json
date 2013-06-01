@@ -1,18 +1,16 @@
 {
-    "name": "TreeGrid",
+    "name": "PortfolioDrilldown",
     "className": "CustomApp",
     "server": "https://rally1.rallydev.com",
     "sdk": "2.0p5",
+    "remote_javascript": [
+    ],
     "javascript": [
-        "RallyTreeProxy.js",
-        "RallyTreeModel.js",
-        "RallyTreeModelFactory.js",
-        "RallyTreeDataStore.js",
-        "RallyTreeGrid.js",
-        "ModifiedPercentDone.js",
-        "App.js"
+        "src/App.js"
+    ],
+    "remote_css": [
     ],
     "css": [
-        "app.css"
+        "styles/app.css"
     ]
 }
